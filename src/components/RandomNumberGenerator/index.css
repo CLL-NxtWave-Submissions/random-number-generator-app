@@ -1,0 +1,45 @@
+.rand-num-generator-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  height: 100vh;
+}
+
+.rand-num-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  box-shadow: 0 0.4rem 1rem 0 #eaebed;
+  border-radius: 0.6rem;
+  background-color: #ffffff;
+}
+
+.rand-num-content-header {
+  font-size: 2rem;
+  color: #0b69ff;
+}
+
+.rand-num-content-description {
+  font-size: 1.3rem;
+  color: #333333;
+}
+
+.rand-num-generate-button {
+  background-color: #0b69ff;
+  color: #e4ebf3;
+  border-radius: 0.4rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.rand-num-text {
+  font-size: 2.5rem;
+  color: #0b69ff;
+}
